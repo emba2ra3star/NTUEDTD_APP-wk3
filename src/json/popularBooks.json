@@ -1,7 +1,24 @@
 [
     {
-        "id": 1,
-        "bookName": "Fashionopolis",
-        "author": "Dana Thomas"
+        "data": [
+            {
+                "id": 1,
+                "title": "Fashionopolis",
+                "author": "Dana Thomas",
+                "img": "https://github.com/emba2ra3star/NTUEDTD_APP-wk3/blob/main/assets/imgs/img_book_fashinopolis.png?raw=true"
+            },
+            {
+                "id": 2,
+                "title": "Chanel",
+                "author": "Patrick Mauriès",
+                "img": "https://github.com/emba2ra3star/NTUEDTD_APP-wk3/blob/main/assets/imgs/img_book_chanel.png?raw=true"
+            },
+            {
+                "id": 3,
+                "title": "Calligraphy",
+                "author": "June & Lucy",
+                "img": "https://github.com/emba2ra3star/NTUEDTD_APP-wk3/blob/main/assets/imgs/img_book_calligraphy.png?raw=true"
+            }
+        ]
     }
 ]

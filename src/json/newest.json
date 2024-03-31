@@ -1,0 +1,23 @@
+[
+    {"data":[
+        {
+            "id": 4,
+            "title": "Yves Saint Laurent",
+            "author": "Suzy Menkes",
+            "img":"https://github.com/emba2ra3star/NTUEDTD_APP-wk3/blob/main/assets/imgs/img_book_ysl.png?raw=true",
+            "star_amount":4
+        },{
+            "id": 5,
+            "title": "The Book of Signs",
+            "author": "Rudolf Koch ",
+            "img":"https://github.com/emba2ra3star/NTUEDTD_APP-wk3/blob/main/assets/imgs/img_book_tbos.png?raw=true",
+            "star_amount":3
+        },{
+            "id": 6,
+            "title": "Stitched Up",
+            "author": "Tansy E. Hoskins",
+            "img":"https://github.com/emba2ra3star/NTUEDTD_APP-wk3/blob/main/assets/imgs/img_book_stitchedup.png?raw=true",
+            "star_amount":3
+        }
+    ]}
+]

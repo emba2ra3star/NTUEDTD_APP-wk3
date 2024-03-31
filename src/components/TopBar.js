@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, ScrollView, StatusBar, Pressable } from 'react-native';
+import { StyleSheet, View, Image, Pressable } from 'react-native';
 
-const TopBar = () => {
+const TopBar = ({navigation}) => {
     return (
         <View style={styles.topBar}>
-            <Pressable style={styles.iconBTN}>
+            <Pressable style={styles.iconBTN} onPress={()=>console.log(1)}>
                 <Image style={styles.iconImg} source={require("../../assets/icons/icon_menu.png")} />
             </Pressable>
             <Pressable style={styles.iconBTN}>
