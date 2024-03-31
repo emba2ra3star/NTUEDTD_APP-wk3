@@ -8,18 +8,12 @@ import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import HomeScreen from './src/screens/HomeScreen';
 import BookInfoScreen from './src/screens/BookInfoScreen';
 
-const Stack=createStackNavigator();
+// const Stack=createStackNavigator();
 
 export default function App() {
   return (
     <SafeAreaProvider>
       <SafeAreaView>
-        <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen name="HomeScreen" component={HomeScreen}/>
-            <Stack.Screen name="BookInfoScreen" component={BookInfoScreen}/>
-          </Stack.Navigator>
-        </NavigationContainer>
         
         <HomeScreen />
         
