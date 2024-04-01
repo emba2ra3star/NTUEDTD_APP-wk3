@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 
-const PopularBook = ({ book }) => {
+const PopularBook = () => {
   return (
     <View style={styles.popularBooks_card}>
-      <Pressable onPress={() => console.log(1)}>
+      <Pressable>
         <Image
           style={styles.popularBooks_img}
           source={{ uri: book.img }}

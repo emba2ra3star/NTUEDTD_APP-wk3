@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Pressable, FlatList, Button } from 'react-native';
 
-const BookInfoScreen=({route})=>{
+const BookInfoScreen=()=>{
     <View>
         <Image source={{uri:"https://github.com/emba2ra3star/NTUEDTD_APP-wk3/blob/main/assets/imgs/img_book_ysl.png?raw=true"}} />
         <Text>Yves Saint Laurent</Text>

@@ -7,17 +7,17 @@ import newest from "../json/newest.json"
 import Newest from '../components/Newest.js';
 // import ShowStars from '../components/ShowStars.js';
 
-const HomeScreen = ({navigation}) => {
+const HomeScreen = () => {
     return (
         <View>
-            <TopBar navigation={navigation} />
+            <TopBar />
             <View>
                 <Text style={styles.text_Heading1}>Popular Books</Text>
                 <View style={styles.popularBooks_Content}>
                     <FlatList
                         horizontal={true}
                         data={popularBooks[0].data}
-                        renderItem={({ item }) => { return (<PopularBook book={item} />) }}
+                        renderItem={({ item }) => { return (<PopularBook book={item} navigation={navigation}/>) }}
                     />
                 </View>
             </View>
