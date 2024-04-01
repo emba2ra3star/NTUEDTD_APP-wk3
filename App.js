@@ -6,6 +6,7 @@ import 'react-native-gesture-handler';
 import { StyleSheet, Text, View, Image, ScrollView, StatusBar, Pressable } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import HomeScreen from './src/screens/HomeScreen.js';
+import Navigation from './src/navigation/index.js';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       <SafeAreaView>
 
         <HomeScreen />
-
+        <Navigation />
+        
       </SafeAreaView>
     </SafeAreaProvider>
   );

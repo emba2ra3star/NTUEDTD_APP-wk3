@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Pressable, FlatList } from 'react-native';
+
 import TopBar from "../components/TopBar.js"
 import PopularBook from '../components/PopularBook.js';
 import popularBooks from "../json/popularBooks.json";
@@ -7,17 +8,19 @@ import newest from "../json/newest.json"
 import Newest from '../components/Newest.js';
 // import ShowStars from '../components/ShowStars.js';
 
+
+
 const HomeScreen = () => {
     return (
         <View>
-            <TopBar />
+            <TopBar/>
             <View>
                 <Text style={styles.text_Heading1}>Popular Books</Text>
                 <View style={styles.popularBooks_Content}>
                     <FlatList
                         horizontal={true}
                         data={popularBooks[0].data}
-                        renderItem={({ item }) => { return (<PopularBook book={item} navigation={navigation}/>) }}
+                        renderItem={({ item }) => { return (<PopularBook book={item} />) }}
                     />
                 </View>
             </View>

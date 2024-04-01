@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 
-const PopularBook = () => {
+const PopularBook = ({book}) => {
   return (
     <View style={styles.popularBooks_card}>
       <Pressable>

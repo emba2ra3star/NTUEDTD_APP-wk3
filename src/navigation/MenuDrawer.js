@@ -1,10 +1,11 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
-import HomeScreen from '../screens/HomeScreen';
-import AccountScreen from "../screens/AccountScreen"
-import SettingsScreen from '../screens/SettingScreen';
+import HomeScreen from '../screens/HomeScreen.js';
+import AccountScreen from "../screens/AccountScreen.js"
+import SettingsScreen from "../screens/SettingScreen.js";
 
 const Drawer = createDrawerNavigator();
 
@@ -19,3 +20,5 @@ const MenuDrawer=()=>{
         </NavigationContainer>
     )
 };
+
+export default MenuDrawer;
